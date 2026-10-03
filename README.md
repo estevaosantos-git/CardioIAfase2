@@ -12,7 +12,7 @@
 
 ## 👨‍🎓 Integrantes: 
 - Murilo Ferreira Borges - RM567738
-- Guilherme Pinheiro Carlsson Cury - RM564011<
+- Guilherme Pinheiro Carlsson Cury - RM564011
 - Estevão Ferreira Santos - RM567522
 
 ## 👩‍🏫 Professores:
