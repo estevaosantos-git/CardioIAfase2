@@ -17,9 +17,9 @@
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Tutor</a>
+- Leonardo Ruiz Orabona
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
+- André Godoi Chiovato
 
 
 ## 📜 Descrição
