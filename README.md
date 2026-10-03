@@ -11,9 +11,9 @@
 ## Nome do grupo
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Murilo Ferreira Borges - RM567738</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Guilherme Pinheiro Carlsson Cury - RM564011</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Estevão Ferreira Santos - RM567522</a>
+- Murilo Ferreira Borges - RM567738
+- Guilherme Pinheiro Carlsson Cury - RM564011<
+- Estevão Ferreira Santos - RM567522
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
