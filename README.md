@@ -11,11 +11,9 @@
 ## Nome do grupo
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Murilo Ferreira Borges - RM567738</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Guilherme Pinheiro Carlsson Cury - RM564011</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Estevão Ferreira Santos - RM567522</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
