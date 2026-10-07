@@ -7,8 +7,10 @@
 <br>
 
 # Nome do projeto
+- Cardio IA
 
 ## Nome do grupo
+- Grupo 83
 
 ## 👨‍🎓 Integrantes: 
 - Murilo Ferreira Borges - RM567738
@@ -24,7 +26,13 @@
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+O CardioIA é um projeto acadêmico desenvolvido com o objetivo de aplicar conceitos de Inteligência Artificial e Processamento de Linguagem Natural (PLN) na análise de relatos de pacientes.
+
+O projeto é dividido em duas etapas. Na primeira, é utilizado um sistema baseado em regras que identifica sintomas presentes nos relatos dos pacientes e consulta um mapa de conhecimento para sugerir possíveis diagnósticos.
+
+Na segunda etapa, é desenvolvido um classificador de texto utilizando Machine Learning. As frases são transformadas em representações numéricas por meio da técnica TF-IDF, e um modelo de Regressão Logística é treinado para classificá-las entre alto risco e baixo risco.
+
+O projeto possui finalidade exclusivamente acadêmica e demonstra, de forma simplificada, como técnicas de IA podem ser aplicadas à análise de textos relacionados à saúde, não devendo ser utilizado para diagnóstico ou triagem médica real.
 
 
 ## 📁 Estrutura de pastas
@@ -47,21 +55,81 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
+### Pré-requisitos
 
+Para executar o projeto, é necessário ter instalado:
 
-## 🗃 Histórico de lançamentos
+- Python 3
+- Jupyter Notebook
+- pandas
+- scikit-learn
 
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
+As bibliotecas necessárias podem ser instaladas pelo terminal com:
+
+```bash
+pip install pandas scikit-learn notebook
+```
+
+### Estrutura utilizada
+
+Os principais arquivos da Fase 2 estão organizados da seguinte forma:
+
+```text
+CardioIAfase2/
+├── document/
+│   ├── base_risco.csv
+│   ├── frases_pacientes.txt
+│   └── mapa_conhecimento.csv
+│
+├── src/
+│   └── Parte1CardioIA.ipynb
+│
+└── README.md
+```
+
+### Executando o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone URL_DO_REPOSITORIO
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd CardioIAfase2
+```
+
+3. Acesse a pasta `src`:
+
+```bash
+cd src
+```
+
+4. Inicie o Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+5. Abra o arquivo `Parte1CardioIA.ipynb`.
+
+6. Execute todas as células do notebook em ordem.
+
+### Funcionamento
+
+O notebook executa duas etapas principais:
+
+**Parte 1 — Sistema baseado em regras:** carrega o mapa de conhecimento localizado em `document/mapa_conhecimento.csv`, analisa os relatos presentes em `document/frases_pacientes.txt` e sugere possíveis diagnósticos a partir das combinações de sintomas cadastradas.
+
+**Parte 2 — Classificação com Machine Learning:** utiliza o arquivo `document/base_risco.csv` para treinar e testar um classificador de texto. As frases são transformadas em vetores utilizando TF-IDF e classificadas como `alto risco` ou `baixo risco` por um modelo de Regressão Logística.
+
+Ao final, o notebook apresenta a acurácia, o relatório de classificação, a matriz de confusão e testes realizados com novas frases.
+
+## Video
+
+Segue link do video no Youtube como não listado: https://www.youtube.com/watch?v=70Cp8y9eVBc
 
 ## 📋 Licença
 
