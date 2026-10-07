@@ -82,7 +82,7 @@ CardioIAfase2/
 │   └── mapa_conhecimento.csv
 │
 ├── src/
-│   └── Parte1CardioIA.ipynb
+│   └── CardioIA_Fase2.ipynb
 │
 └── README.md
 ```
@@ -113,7 +113,7 @@ cd src
 jupyter notebook
 ```
 
-5. Abra o arquivo `Parte1CardioIA.ipynb`.
+5. Abra o arquivo `CardioIA_Fase2.ipynb`.
 
 6. Execute todas as células do notebook em ordem.
 
